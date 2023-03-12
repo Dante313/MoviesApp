@@ -12,8 +12,10 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "MoviesApp"
-include ':app'
-include ':presentation:shared:mvi'
-include ':core:coroutines'
-include ':core:dispatchers'
+
+include(":app")
+include(":presentation:shared:mvi")
+include(":core:coroutines")
+include(":core:dispatchers")
