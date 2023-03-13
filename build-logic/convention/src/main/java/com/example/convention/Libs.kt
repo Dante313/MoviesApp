@@ -1,7 +1,13 @@
+package com.example.convention
+
 object Libs {
 
-    object Compose {
+    object Gradle {
+        const val androidPlugin = "com.android.tools.build:gradle:7.4.2"
+        const val kotlinPlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0"
+    }
 
+    object Compose {
         const val version = "1.3.3"
 
         const val ui = "androidx.compose.ui:ui:$version"
